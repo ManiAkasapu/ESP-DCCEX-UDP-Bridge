@@ -8,7 +8,6 @@ This is generic ESP Sketch that can receive UDP data over Wifi. This can be used
 
 Edit the following in the sketch so that it uses your own wifi details
 
-<code>
 IPAddress ip(192, 168, 0, 201); //REPLACE YOUR IP ADDRESS
 IPAddress gateway(192, 168, 1, 1); // REPLACE YOUR GATEWAY
 IPAddress subnet(255, 255, 255, 0); // SUBNET MASK
@@ -20,7 +19,7 @@ WiFiUDP Udp;
 unsigned int localUdpPort = 123;  // CHANGE THIS ACCORDING TO YOUR TASTE
 char incomingPacket[255];  // buffer for incoming packets (can also reduce this)
 char  replyPacket[] = "UDP Packet Received";  // a reply string to send back testing purposes
-</code>
+
 
 There are different ways uploading a sketch (ESP_WIFI_UDP.ino) to ESP. Some links below:
 
