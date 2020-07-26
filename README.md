@@ -16,9 +16,9 @@ IPAddress subnet(255, 255, 255, 0); // SUBNET MASK
 const char* ssid = "YOUR_BROADBAND_NAME";   // The SSID (name) of the Wi-Fi network you want to connect to
 const char* password = "YOUR_PASSWORD";     // The password of the Wi-Fi network
 
-unsigned int localUdpPort = 123;  // CHANGE THIS ACCORDING TO YOUR TASTE
+unsigned int localUdpPort = 123;  // CHANGE THIS ACCORDING TO YOUR LIKING
 char incomingPacket[255];  // buffer for incoming packets (can also reduce this)
-char  replyPacket[] = "UDP Packet Received";  // a reply string to be sent back (you can customize this to your likining)
+char  replyPacket[] = "UDP Packet Received";  // a reply string to be sent back (you can customize this to your liking)
 ```
 
 There are different ways uploading a sketch (ESP_WIFI_UDP.ino) to ESP. Some links below:
