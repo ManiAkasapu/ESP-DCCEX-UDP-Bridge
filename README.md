@@ -30,16 +30,16 @@ https://create.arduino.cc/projecthub/ROBINTHOMAS/programming-esp8266-esp-01-with
 
 #### Connections - While running the ESP
 
-ESP         Arduino
+ESP     -     Arduino
 
-3.3v         3.3v
+3.3v    -     3.3v
 
-GND          GND
+GND     -     GND
 
-EN           3.3v
+EN      -     3.3v
 
-TX           RX
+TX      -     RX
 
-RX           TX
+RX      -     TX
 
 
