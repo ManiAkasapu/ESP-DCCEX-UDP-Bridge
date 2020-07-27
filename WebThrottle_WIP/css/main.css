@@ -1,0 +1,57 @@
+/*!
+ * Main css
+ */
+ .navbar-toggler{
+  border: 0px;
+ }
+ .navbar-toggler .settings {
+  background-image: url("../images/settings.svg");  
+  width:20px;
+  height:20px;
+  color:#ffffff;
+  opacity: 0.6;
+}
+.navbar-toggler .settings:hover{
+  opacity: 1;
+}
+
+.page-heading{
+  min-width: 200px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.slider-container{
+  padding: 30px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rs-control .rs-range-color {
+  background-color: #7154e0;
+}
+.rs-control .rs-path-color {
+  background-color: #eaeaea;
+}
+.rs-control .rs-handle:after {
+  background-color: #939393;
+}
+.rs-control .rs-bg-color {
+  background-color: white;
+}
+
+.rs-tooltip.rs-tooltip-text{
+    bottom: 0;
+    top: auto !important;
+    font-size: 32px;
+    left: 50%;
+}
